@@ -46,3 +46,11 @@ body {
     overflow: hidden;
     /**/
 }
+
+.box1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box2 {}
+
+.box3 {}
