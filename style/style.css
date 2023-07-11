@@ -12,7 +12,7 @@ body {
     font-size: 15px;
     /*A propriedade font-size no CSS estabelece o tamanho da fonte. Esta propriedade também é usada para computaro tamanho de rem , em , ex , % , px , e outras unidades <length> (en-US) relativas*/
 
-    font-family: '', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 
     font-weight: 400px;
     /*A propriedade CSS font-weight especifica o peso ou a intensidade da fonte (ex.: negrito). Algumas fontes oferecem apenas as opções normal e negrito.*/
@@ -57,4 +57,15 @@ body {
 
 .box3 {
     background-color: hsl(179, 100%, 13%);
+}
+
+.box {
+    padding: 40px;
+}
+
+.box h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
 }
