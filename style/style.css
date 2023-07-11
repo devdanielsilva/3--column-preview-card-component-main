@@ -47,7 +47,7 @@ body {
     /*As margems; margin-top, margin-right, margin-left e margin-bottom. Todas elas terão o espaçamento de 2rem.*/
 
     overflow: hidden;
-    /**/
+    /*O overflow é uma propriedade do CSS utilizada para tratar conteúdos que ultrapassam os limites de um elemento. O objetivo do overflow é fazer com que conteúdos muito grandes possam caber dentro de uma página através do uso de barras de rolagem.*/
 }
 
 .box1 {
@@ -71,4 +71,10 @@ body {
     text-transform: uppercase;
     color: white;
     font-size: 30px;
+}
+
+.box p {
+    color: hsl(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    /**/
 }
