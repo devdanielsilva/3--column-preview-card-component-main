@@ -33,7 +33,7 @@ body {
     /*O CSS Grid é um sistema de estruturação de layout que o CSS nos fornece. Diferente do Flexbox, que apenas nos permite trabalhar em uma única dimensão, o CSS Grid nos permite configurar layouts em duas dimensões (linhas e colunas). A junção de linhas e colunas formam uma grade, o que dá o nome a esse sistema (Grid).*/
 
     grid-template-columns: 1fr 1fr 1fr;
-    /**/
+    /*grid-template-columns, é usado para adicionar quantas colunas queremos na nossa grade. */
 
     border-radius: 12px;
     /**/
