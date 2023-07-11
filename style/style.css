@@ -47,7 +47,8 @@ body {
     /*As margems; margin-top, margin-right, margin-left e margin-bottom. Todas elas terão o espaçamento de 2rem.*/
 
     overflow: hidden;
-    /*O overflow é uma propriedade do CSS utilizada para tratar conteúdos que ultrapassam os limites de um elemento. O objetivo do overflow é fazer com que conteúdos muito grandes possam caber dentro de uma página através do uso de barras de rolagem.*/
+    /*O overflow é uma propriedade do CSS utilizada para tratar conteúdos que ultrapassam os limites de um elemento. 
+    O objetivo do overflow é fazer com que conteúdos muito grandes possam caber dentro de uma página através do uso de barras de rolagem.*/
 }
 
 .box1 {
@@ -76,5 +77,20 @@ body {
 .box p {
     color: hsl(0, 0%, 100%, 0.75);
     line-height: 1.6;
-    /**/
+    /*A propriedade CSS line-height permite controlar o espaçamento entre as linhas de um texto. 
+    A distância é medida entre as linhas de base (baseline) de duas linhas consecutivas.*/
+}
+
+.box a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 25px;
+    margin-top: 60px;
+    display: inline-block;
+    /*O valor CSS display inline é utilizado quando queremos que os elementos fiquem posicionados lado a lado. 
+    É importante dizer que, ao utilizar esse valor, as propriedades width (largura) e height (altura) serão ignoradas se forem definidas no código CSS.*/
+
+    border: 2px solide hsl(0, 0%, 95%);
+    transform: all .46 ease-in-out;
 }
