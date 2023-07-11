@@ -22,7 +22,7 @@ body main {
 }
 
 /**/
-.container {
+body main .container {
     max-width: 960px;
     /*A propriedade max-width do CSS estabelece a largura máxima de um elemento. Ele evita que o valor usado da propriedade width se torne maior que o valor especificado por max-width .*/
 
