@@ -51,6 +51,10 @@ body {
     background-color: hsl(31, 77%, 52%);
 }
 
-.box2 {}
+.box2 {
+    background-color: hsl(184, 100%, 22%);
+}
 
-.box3 {}
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+}
