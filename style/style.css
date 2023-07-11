@@ -33,10 +33,12 @@ body {
     /*O CSS Grid é um sistema de estruturação de layout que o CSS nos fornece. Diferente do Flexbox, que apenas nos permite trabalhar em uma única dimensão, o CSS Grid nos permite configurar layouts em duas dimensões (linhas e colunas). A junção de linhas e colunas formam uma grade, o que dá o nome a esse sistema (Grid).*/
 
     grid-template-columns: 1fr 1fr 1fr;
-    /*grid-template-columns, é usado para adicionar quantas colunas queremos na nossa grade. */
+    /*grid-template-columns, é usado para adicionar quantas colunas queremos na nossa grade.*/
+    /*E para as linhas da grade usamos o grid-template-rows*/
 
     border-radius: 12px;
-    /**/
+    /*No CSS3 a propriedade border-radius destina-se a definir bordas arredondadas. 
+    O arredondamento das bordas é feito com declaração de dois valores CSS de medida; o primeiro define o eixo horizontal (rx) de 1/4 de uma elipse e o segundo o eixo vertical (ry)*/
 
     margin: 2rem;
     /**/
