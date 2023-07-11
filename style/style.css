@@ -76,6 +76,17 @@ body {
 
 .box p {
     color: hsl(0, 0%, 100%, 0.75);
+    /*A função hsl() é uma função embutida em CSS que é usada para definir as cores usando o modelo Hue-saturation-lightness (HSL).
+    
+    Parâmetros: esta função aceita três parâmetros mencionados acima e descritos abaixo: 
+ 
+
+matiz: este parâmetro é usado para definir o grau na roda de cores. Seu valor está entre 0 e 360, onde 0 ou 360 representa o vermelho, 120 representa o verde e 240 representa o azul.
+
+saturação: Este parâmetro é usado para definir a saturação onde 0% representa tons de cinza e 100% representa cores.
+
+luminosidade: este parâmetro é usado para definir a luminosidade em que 0% representa o preto, 50% representa o normal e 100% representa o branco.*/
+
     line-height: 1.6;
     /*A propriedade CSS line-height permite controlar o espaçamento entre as linhas de um texto. 
     A distância é medida entre as linhas de base (baseline) de duas linhas consecutivas.*/
@@ -83,10 +94,21 @@ body {
 
 .box a {
     text-decoration: none;
+    /*A propriedade text-decoration do CSS é usada para definir a formatação de underline , overline , line-through ou blink . 
+    
+    As decorações underline e overline são posicionadas abaixo e acima do texto (respectivamente), e line-through cortando-o. A propriedade text-decoration desenha em elementos descendentes.
+    
+    E a decoração none, ao contrários dos valores atuais, o valor none permite, informalmente dizendo, que você desative a propriedade do elemento.*/
+
     background-color: hsl(0, 0%, 95%);
     padding: 13px 27px;
+
     border-radius: 25px;
+    /*A propriedade CSS3 border-radius destina-se a definir bordas arredondadas. 
+    O arredondamento das bordas é feito com declaração de dois valores CSS de medida; o primeiro define o eixo horizontal (rx) de 1/4 de uma elipse e o segundo o eixo vertical (ry).*/
+
     margin-top: 60px;
+
     display: inline-block;
     /*O valor CSS display inline é utilizado quando queremos que os elementos fiquem posicionados lado a lado. 
     É importante dizer que, ao utilizar esse valor, as propriedades width (largura) e height (altura) serão ignoradas se forem definidas no código CSS.*/
@@ -94,3 +116,4 @@ body {
     border: 2px solide hsl(0, 0%, 95%);
     transform: all .46 ease-in-out;
 }
+
