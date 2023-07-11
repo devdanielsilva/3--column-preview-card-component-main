@@ -139,3 +139,9 @@ luminosidade: este parâmetro é usado para definir a luminosidade em que 0% rep
         grid-template-columns: 1fr;
     }
 }
+
+@media only screen and (max-width: 7425px) {
+    .wrapper {
+        margin: 2rem, .5rem;
+    }
+}
