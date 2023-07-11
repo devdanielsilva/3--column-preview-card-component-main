@@ -113,7 +113,7 @@ luminosidade: este parâmetro é usado para definir a luminosidade em que 0% rep
     /*O valor CSS display inline é utilizado quando queremos que os elementos fiquem posicionados lado a lado. 
     É importante dizer que, ao utilizar esse valor, as propriedades width (largura) e height (altura) serão ignoradas se forem definidas no código CSS.*/
 
-    border: 2px solide hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
     transform: all .46 ease-in-out;
 }
 
