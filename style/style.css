@@ -9,5 +9,6 @@ body {
     align-items: center;
     /*A propriedade align-items tem a função de alinhar os elementos no eixo transversal. Por padrão, o valor inicial da propriedade é stretch. E ao usar a propriedade center, os elementos ficam centralizados no meio da tela.*/
 
-    
+    font-size: 15px;
+    /*A propriedade font-size no CSS estabelece o tamanho da fonte. Esta propriedade também é usada para computaro tamanho de rem , em , ex , % , px , e outras unidades <length> (en-US) relativas*/
 }
