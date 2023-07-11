@@ -41,7 +41,7 @@ body {
     O arredondamento das bordas é feito com declaração de dois valores CSS de medida; o primeiro define o eixo horizontal (rx) de 1/4 de uma elipse e o segundo o eixo vertical (ry)*/
 
     margin: 2rem;
-    /**/
+    /*As margems; margin-top, margin-right, margin-left e margin-bottom. Todas elas terão o espaçamento de 2rem.*/
 
     overflow: hidden;
     /**/
