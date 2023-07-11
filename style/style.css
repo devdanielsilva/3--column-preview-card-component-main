@@ -49,6 +49,8 @@ body main .container {
     overflow: hidden;
     /*O overflow é uma propriedade do CSS utilizada para tratar conteúdos que ultrapassam os limites de um elemento. 
     O objetivo do overflow é fazer com que conteúdos muito grandes possam caber dentro de uma página através do uso de barras de rolagem.*/
+
+    
 }
 
 .box1 {
