@@ -1,0 +1,13 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    min-height: 100vh;
+    /*Altura miníma do dispositivo. Vw, por exemplo, V = view, ou seja, a tela do seu navegador, e W = width, largura, portanto 100vw é 100%, em outras palavras, toda a largura visível do navegador. Seguindo a ideia o Vh é V = view, H = height que significa altura, então 100vh é toda altura visível do seu navegador.*/
+
+    display: flex;
+    /*O display: flex funciona de uma maneira diferente dos outros displays. Quando colocamos essa propriedade em um elemento, esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas.*/
+
+    align-items: center;
+    /*A propriedade align-items tem a função de alinhar os elementos no eixo transversal. Por padrão, o valor inicial da propriedade é stretch. E ao usar a propriedade center, os elementos ficam centralizados no meio da tela.*/
+
+    
+}
