@@ -117,3 +117,25 @@ luminosidade: este parâmetro é usado para definir a luminosidade em que 0% rep
     transform: all .46 ease-in-out;
 }
 
+.box1 a {
+    color: hsl(31, 77%, 52%)
+}
+
+.box2 a {
+    color: hsl(184, 100%, 22%)
+}
+
+.box3 a {
+    color: hsl(179, 100%, 13%)
+}
+
+.box a:hover {
+    color: hsl(0, 0, 95%);
+    background: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
